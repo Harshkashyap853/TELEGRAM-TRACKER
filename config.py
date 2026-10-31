@@ -14,7 +14,7 @@ import os
 # TELEGRAM
 # ============================================================
 
-BOT_TOKEN = "8960480074:AAHdb7MEyyQh9pf1eTBbT_wDb3GpDJVjjag"
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
 
 if not BOT_TOKEN:
     raise RuntimeError(
@@ -43,7 +43,7 @@ ADDRESS = {
 
 CHANNELS = {
     # Replace this with your REAL Flipkart Telegram channel ID.
-    "flipkart": -1004442022321,
+    "flipkart": your channel id,
 
     # Keep these for later.
     # "amazon": -1000000000001,
