@@ -1,0 +1,22 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+config.local.py
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Debug output
+debug_*.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Database
+*.db
+*.sqlite3
